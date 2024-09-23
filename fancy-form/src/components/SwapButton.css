@@ -1,0 +1,21 @@
+.swap-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.swap-button {
+  background-color: #2c2f36;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.swap-button:hover {
+  background-color: #3a3d42;
+}

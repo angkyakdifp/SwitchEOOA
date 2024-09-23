@@ -1,0 +1,66 @@
+.currency-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #2c2f36;
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.currency-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.currency-header span {
+  font-size: 14px;
+  color: #a1a1a1;
+  margin-bottom: 8px;
+}
+
+.currency-input {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.currency-input::placeholder {
+  color: #737373;
+  font-family: 'Inter', sans-serif; /* Matching placeholder font as well */
+  font-size: 32px; /* Match placeholder size */
+}
+
+.currency-selector {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: #212429;
+  border-radius: 12px;
+  cursor: pointer;
+  width: auto;
+}
+
+.currency-name {
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
