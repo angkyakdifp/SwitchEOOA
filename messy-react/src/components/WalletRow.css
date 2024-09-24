@@ -1,0 +1,20 @@
+.wallet-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .wallet-row__amount,
+  .wallet-row__usd-value,
+  .wallet-row__currency {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  
+  .wallet-row__amount span,
+  .wallet-row__usd-value span,
+  .wallet-row__currency span {
+    font-weight: bold;
+  }
+  
